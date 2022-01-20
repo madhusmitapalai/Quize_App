@@ -1,0 +1,22 @@
+.quize-sec{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    .subtitle{
+        margin-top: .5rem;
+        font-size: 25px;
+        border: 1px solid black;
+        box-shadow: 4px 4px 2px black;
+        padding: 5px 10px;
+    }
+    .quize-info{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin: 10px;
+       
+    }
+}
