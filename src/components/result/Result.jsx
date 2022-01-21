@@ -7,7 +7,7 @@ const Result = ({name,Score}) => {
     const history=useHistory()
     useEffect(()=>{
         if(!name){
-            history.push('/')
+            history.push('/home')
         }
     },[name,history])
     return (
